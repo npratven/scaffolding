@@ -1,0 +1,17 @@
+{
+  "apps": [
+    {
+      "name": "worker",
+      "script": "/opt/api/index.js",
+      "watch": ["lib", "index.js"],
+      "ignore_watch": ["node_modules", "config", "mongo-data"],
+      "instances": 1,
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "env_production": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}

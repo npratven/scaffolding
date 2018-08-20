@@ -1,0 +1,35 @@
+{
+  "name": "mdpa-practica",
+  "version": "1.0.0",
+  "description": "MDPA Practise Scaffolding",
+  "main": "index.js",
+  "scripts": {
+    "precommit": "npm run lint",
+    "prepush": "npm run lint",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint ."
+  },
+  "keywords": [
+    "mdpa",
+    "api",
+    "node",
+    "restful"
+  ],
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "jshint": "^2.9.6",
+    "mongoose": "^5.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "husky": "^0.14.3"
+  }
+}

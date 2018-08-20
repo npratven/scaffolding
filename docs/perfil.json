@@ -1,0 +1,40 @@
+
+{
+    "title": "Perfil Tinder",
+    "type": "object",
+    "propierties" : {
+        "id" : {
+            "type" : "integer"
+        },
+        "name" : {
+            "type": "string"
+        },
+        "firstName" : {
+            "type" : "string"
+        },
+        "lastName" : {
+            "type" : "string"
+        },
+        "age" : {
+            "type" : "integer"
+        },
+        "city" : {
+            "type" : "string"
+        },
+        "ubication" : {
+            "type" : "string"
+        },
+        "distancy" : {
+            "type" : "integer"
+        },
+        "sexo" : {
+            "type" : "string"
+        },
+        "visible" : {
+            "type" : "string"
+        }
+            
+    },
+    "required" : ["id","name","firstName","age","visible"]
+}
+

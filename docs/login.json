@@ -1,0 +1,17 @@
+{
+    "title": "Perfil Tinder",
+    "type": "object",
+    "propierties" : {
+        "idperfil" : {
+            "type" : "integer"
+        },
+        "mailid" : {
+            "type": "string"
+        },
+        "passwordid" : {
+            "type" : "string"
+        }     
+    },
+    "required" : ["idperfil","mailid","passwordid"]
+}
+
